@@ -1,16 +1,10 @@
-## Python based scripts to help gathering resources for IELTS exam
+## [Australian Broadcasting Study English IELTS Preparation](https://www.abc.net.au/education/learn-english/study-english-ielts-preparation/7568250)
 
-- [ABC English Learning Series](https://www.youtube.com/watch?v=p1UeGt-OtWE) : Execute the below [script](downloadABCEngLearnSeriesNotes.py) to download notes from study english courses offered by Australia Broadcasting Corp(ABC) learn english series and saves them as pdf files to a folder named _notes_ in current location of scripts.
-
-    <code> $ python3 downloadABCEngLearnSeriesNotes.py </code>
+[![Youtube video series](https://img.youtube.com/vi/p1UeGt-OtWE/0.jpg)](https://www.youtube.com/watch?v=p1UeGt-OtWE)
+Presented by Margot Politis as a series of English language programs which develops skills and strategies for intermediate to advanced learners of English - especially those preparing to take the IELTS test. 
+After downloading the repository from github run `$ python3 downloadABCEngLearnSeriesNotes.py` which saves notes and activities in the series to a _notes_ folder.
 
     
-Urls are working as of 01/16/2019
 
-Taking requests and passively trying to add other resources, meanwhile everyone is welcome to add to repository.
-
-### Minimun Requirements to run the scripts and view notes
-- Python 3.7 or later.
-- requests [package](http://docs.python-requests.org/en/master/user/install/#install)
-- Adode Reader or any PDF reader.
-- Optional _VScode_ related dev dependency of _pylint_, which is not needed to run the files.
+    
+> Urls are working as of _January 16 2019_, for more help on ruuning programs refer to [wiki](https://github.com/py563/Learning_Series_IELTS/wiki#minimum-requirements-to-run-the-scripts-and-view-notes "Software Requirements"). 
