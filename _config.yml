@@ -1,1 +1,5 @@
 remote_theme: pmarsceill/just-the-docs
+search_enabled: true
+aux_links:
+    "Find on GitHub":
+      - "//github.com/py563/Learning_Series_IELTS"
