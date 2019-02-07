@@ -1,10 +1,10 @@
-# Resources
+# IELTS Resources
 
-Working as of _January 16 2019_, for more help on running programs refer to [project wiki](https://github.com/py563/Learning_Series_IELTS/wiki#minimum-requirements-to-run-the-scripts-and-view-notes "Software Requirements"). Contributions are always welcome!. Thanks to @ucatal for his [awesome-ielts](https://github.com/ucatal/awesome-ielts) repoistory.
+Working as of _January 16 2019_, for more help on running programs refer to [Wiki](https://github.com/py563/Learning_Series_IELTS/wiki  "Software Requirements") . Contributions are always welcome!. Thanks to [awesome-ielts](https://github.com/ucatal/awesome-ielts) repository.
 
-* [Resources](#resources)
-  * [Youtube Channels](#youtubechannels)
-  * [Podcasts] (#podcasts)
+* [Resources](#ielts-resources)
+  * [Youtube Channels](#youtube-channels)
+  * [Podcasts](#podcasts)
   * [Others](#others)
   
 
