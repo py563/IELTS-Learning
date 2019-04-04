@@ -3,3 +3,4 @@ search_enabled: true
 aux_links:
     "Find on GitHub":
       - "//github.com/py563/Learning_Series_IELTS"
+theme: jekyll-theme-modernist
