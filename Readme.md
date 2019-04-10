@@ -12,7 +12,7 @@ Minimal computer knowledge required, for detailed information on how to run prog
 
 ## Australian Broadcasting Study English IELTS Preparation
 
-  [![Youtube video series](https://img.youtube.com/vi/p1UeGt-OtWE/0.jpg)](https://www.youtube.com/watch?v=p1UeGt-OtWE)
+  [![Youtube video series](https://img.youtube.com/vi/p1UeGt-OtWE/0.jpg)](https://www.youtube.com/watch?v=ehBJ4Pi4C_Y&list=PL0wWwf_rAjWYDRa3KYZVFgQLjgIAbZSB4)
 
   Youtube video series presented by Margot Politis for [study english language programs](https://www.abc.net.au/education/learn-english/study-english-ielts-preparation/7568250 "Australian Broadcasting Study English IELTS Preparation") at ABC. Which develops skills and strategies for intermediate to advanced learners of English, especially those preparing to take the IELTS test. After downloading the repository from github open terminal or command prompt and run `python3 downloadABCEngLearnSeriesNotes.py` which saves notes and activities to complete as instructed the series to a _notes_ folder.
 
