@@ -1,3 +1,6 @@
 [submodule "awesome-ielts"]
 	path = awesome-ielts
 	url = https://github.com/ucatal/awesome-ielts
+[submodule "themes/hello-friend"]
+	path = themes/hello-friend
+	url = git@github.com:TeamYayin/hugo-theme-hello-friend.git
