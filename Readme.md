@@ -10,4 +10,12 @@ Minimal computer knowledge required to run the scripts. We will try to find some
 
 For detailed information on how to run python based scripts to download corresponding pratice activities and study notes please refer to the [Wiki](http://links.awashedupnerd.in/15z).
 
+## Snippets
+
+Scripts are available as gists, please refer below
+
+| Purpose                                       |   Gist                                            |
+| ----------------------------------------------|:--------------------------------------------------|
+| Australia Plus Learn English IELTS Preparation| [Python Script](http://links.awashedupnerd.in/bss)|
+
 [Top](#A-Beginner's-Guide-to-IELTS)
