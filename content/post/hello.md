@@ -1,12 +1,11 @@
 +++
-title = "A Beginner's Guide to IELTS"
+title = "Hello Readers"
 date = "2020-04-10"
 author = "Prajwal"
-cover = "/img/hello.jpg"
+cover = "/img/sunvineyard.jpg"
+tags = ["IELTS preparation"]
 description = "A path to score a good band in IELTS"
 +++
-
-Hi Readers,
 
 I planned to move as a resident to Canada when I got the feeling that being in the US was limiting the uprising of dreamy ideas. The brief unemployment consumed the expiring student work permit like a symbiote, it then shapeshifted as the visa issues.
 
