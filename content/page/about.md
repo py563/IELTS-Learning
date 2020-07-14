@@ -1,8 +1,11 @@
-+++
-title = "About"
-date = "2019-01-25"
-author = "Prajwal"
-+++
+---
+title: "About"
+date: 2019-01-25
+author: "Prajwal"
+weight: 1
+draft: false
+authorLink: "https://prajwalyashasvi.in"
+---
 
 ## When did we start
 
@@ -18,7 +21,10 @@ The author for the post does not hold any copyrights for the recommended content
 
 ## Status
 
-All reviewed contents links are working as of {{ .Lastmod }}.
+All reviewed contents links are working as of July 14th 2020.
+
+Contributions are always welcome!. Please [📧](mailto:blogs@yayinailab.tech) us for more details.
+
+You can visit our other blogs [here](https://awashedupnerd.in/).
 
 > [IELTS™](https://www.ielts.org/) is jointly owned by the British Council, IDP: IELTS Australia and Cambridge Assessment English.
-> Contributions are always welcome!. Please [📧](mailto:askraven@tuta.io) us for more details.
