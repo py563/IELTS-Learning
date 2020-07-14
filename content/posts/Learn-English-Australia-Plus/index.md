@@ -1,12 +1,18 @@
-+++
-title = "Study English: IELTS Preparation by Margot Politis"
-date = "2020-04-24"
-author = "Prajwal"
-cover = "/img/abclearnenglishcover.png"
-tags = [ "ABC", "UTS", "Margot Politis", "IELTS preparation"]
-categories = ["Videos"]
-description = "Study English IELTS Preparation, is a series of English language programs which develops skills and strategies for intermediate to advanced learners of English - especially those preparing to take the IELTS test."
-+++
+---
+title: "Study English: IELTS Preparation by Margot Politis"
+date: 2020-04-24
+author: "Prajwal"
+tags: ["ABC", "UTS", "Margot Politis", "IELTS preparation"]
+categories: ["Videos"]
+description: "Study English IELTS Preparation, is a series of English language programs which develops skills and strategies for intermediate to advanced learners of English - especially those preparing to take the IELTS test."
+weight: 1
+draft: false
+authorLink: "https://prajwalyashasvi.in"
+resources:
+  - name: "featured-image"
+    src: "abclearnenglishcover.png"
+timeToRead: "10"
+---
 
 We will deep-dive through the study English IELTS preparation course presented by Margot Politis and produced by the ABC, Australia's national public broadcaster. She holds an honors degree in Creative Arts & Drama Performance from Flinders University. Insearch team at the University of Technology, Sydney has drawn up the content for the learning series in association with Australia Broadcasting Network.
 

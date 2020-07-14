@@ -1,11 +1,17 @@
-+++
-title = "Hello Readers"
-date = "2020-04-10"
-author = "Prajwal"
-cover = "/img/sunvineyard.jpg"
-tags = ["IELTS preparation"]
-description = "A path to score a good band in IELTS"
-+++
+---
+title: "Hello Readers"
+date: 2020-04-10
+author: "Prajwal"
+tags: ["IELTS preparation", guide]
+description: "A path to score a good band in IELTS"
+weight: 1
+draft: false
+authorLink: "https://prajwalyashasvi.in"
+resources:
+  - name: "featured-image"
+    src: "sunvineyard.jpg"
+timeToRead: "10"
+---
 
 I planned to move as a resident to Canada when I got the feeling that being in the US was limiting the uprising of dreamy ideas. The brief unemployment consumed the expiring student work permit like a symbiote, it then shapeshifted as the visa issues.
 

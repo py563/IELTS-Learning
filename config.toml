@@ -1,56 +1,364 @@
-baseURL = "/"
-languageCode = "en-us"
-theme = "hello-friend"
-paginate = 5
+baseURL = "https://ielts.awashedupnerd.in/"
+# [en, te, hi, fr, ...] determines default content language
+defaultContentLanguage = "en"
 
+# Change the default theme to be use when building the site with Hugo
+theme = "LoveIt"
+
+# whether to use robots.txt
+enableRobotsTXT = true
+enableGitInfo = true
+
+[languages]
+  # english menu
+  [languages.en]
+    weight = 1
+    title = "A Washed-up Nerd"
+    languageCode = "en"
+    languageName = "English"
+    hasCJKLanguage = false
+    paginate = 8
+    copyright = "This work is licensed under a MIT License."
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categories"
+      url = "/categories/"
+      title = ""
+      weight = 3
+    [[languages.en.menu.main]]
+      identifier = "about"
+      pre = ""
+      post = ""
+      name = "About"
+      url = "https://awashedupnerd.in/"
+      title = ""
+      weight = 4
+    [[languages.en.menu.main]]
+        identifier = "showcase"
+        pre = ""
+        post = ""
+        name = "Credits"
+        url = "/showcase"
+        title = ""
+        weight = 5
+    [languages.en.params]
+      # site description
+      description = "learning series and lesson plans to score a great band in IELTS."
+      # site keywords
+      keywords = ["Langauge Blog", "Learning English", " IELTS preparation", " IELTS", "Learn English", "Speaking", "Writing", "IELTS Course", "TOEFL", "Improve Skills TOEFL", "How to Get Good IELTS score"]
+      # App icon config
+      [languages.en.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "IELTS @ A Washed-up Nerd"
+        # whether to omit favicon resource links
+        noFavicon = false
+        # modern SVG favicon to use in place of older style .png and .ico files svgFavicon = ""
+        # Android browser theme color
+        themeColor = "#ffffff"
+        # Safari mask icon color
+        iconColor = "#5bbad5"
+        # Windows v8-10 tile color
+        tileColor = "#da532c"
+      # Search config
+      [languages.en.params.search]
+        enable = true
+        # type of search engine ("lunr", "algolia")
+        type = "lunr"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        # [languages.en.params.search.algolia] index = "index.en" appID = "PASDMWALPK" searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      # Home page config
+      [languages.en.params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.en.params.home.profile]
+          enable = true
+          # URL of avatar shown in home page https://imgur.com/6MPbMGP
+          avatarURL = "/img/wordArt-title.png"
+          # title shown in home page (HTML format is supported)
+          title = "IELTS preparation Blog"
+          # TODO - animates text displayed in home page after title
+          subtitle = "Exploring and reviewing learning series and lesson plans to score a great band."
+          # whether to use typeit animation for subtitle
+          typeit = true
+          # whether to show social links
+          social = true
+          # TODO - disclaimer (HTML format is supported)
+          disclaimer = "📣 Although all the codebases are opensource, please follow their respective terms and licenses ❤"
+        [languages.en.params.home.posts]
+          enable = true
+          # special amount of posts in each home posts page
+          paginate = 6
+      # Social config in home page
+      [languages.en.params.social]
+        GitHub = "TeamYayin"
+        Facebook = "awashedupnerd"
+        Twitter = "anindianjourney"
+        Paypal = ""
+        Email = "blogs@yayinailab.tech"
+        RSS = true
+      #  Linkedin = "" Instagram = "" Gitlab = "" Codepen = "" Stackoverflow = ""
+      #  Youtubelegacy = "" Youtubecustom = "" Youtubechannel = "" Keybase = "" Pinterest = "" Reddit = ""
+  # telugu menu bar
+  # [languages.te] then repeat everything  
 
 
 [params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "post"
-  # "light" or "dark"
-  defaultTheme = "light"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 4
-  # Enable to show reading time in minutes for posts
-  showReadingTime = true
-  # enable to display git revision info 
-  enableGitInfo = true
-  
-[languages]
-  [languages.en]
-    title = "A Washed-up Nerd"
-    subtitle = "IELTS learning resources"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+# LoveIt theme version
+  version = "0.2.X"
+  # site default theme ("light", "dark", "auto")
+  defaultTheme = "auto"
+  # public git repo url only then enableGitInfo is true; 
+  gitRepo = "py563/IELTS-Learning"
+  # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
+  fingerprint = ""
+  # date format
+  dateFormat = "January 2, 2006"
+  # website images for Open Graph and Twitter Cards images = ["img/nidhi-logo.png"]
+  # Header config
+  [params.header]
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
+    # Header title config
+    [params.header.title]
+      # URL of the LOGO #img/nidhi-logo.png"
+      logo = "/img/logo_t.png"
+      # title name; 
+      name = "A Washed-up Nerd"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = "&nbsp;&nbsp;"
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      # whether to use typeit animation for title name
+      typeit = false
+  # Footer config
+  [params.footer]
+    enable = true
+    # Custom content (HTML format is supported)
+    custom = '❤ our blog buy us a <a href="https://ko-fi.com/teamyayin"> <i class="fas fa-mug-hot"></i> </a>'
+    # whether to show Hugo and theme info
+    hugo = true
+    # whether to show copyright info
+    copyright = true
+    # whether to show the author
+    author = true
+    # site creation time
+    since = 2020
+    # license info (HTML format is supported)
+    license= "MIT License"
 
-    [languages.en.params.logo]
-    # logoText = "hello friend"
-      logoHomeLink = "/"
-      path = "/img/logo_t.png"
-      alt = "A Washed-up Nerd"
+  # Section (all posts) page config
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 12
+    # date format (month and day)
+    dateFormat = "Jan 02"
+    # amount of RSS pages
+    rss = 12
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Credits"
-        url = "/showcase"
+  # List (category or tag) page config
+  [params.list]
+    # special amount of posts in each list page
+    paginate = 12
+    # date format (month and day)
+    dateFormat = "Jan 02"
+    # amount of RSS pages
+    rss = 12
 
-[frontmatter]
-  date = ["date", "publishDate", "lastmod"]
-  lastmod = [":git", "lastmod", "date", "publishDate"]
-  publishDate = ["publishDate", "date"]
-  expiryDate = ["expiryDate"]
+  # Page config
+  [params.page]
+    # whether to hide a page from home page
+    hiddenFromHomePage = false
+    # whether to hide a page from search results
+    hiddenFromSearch = false
+    # whether to enable twemoji
+    twemoji = false
+    # whether to enable lightgallery
+    lightgallery = false
+    # whether to enable the ruby extended syntax
+    ruby = false
+    # whether to enable the fraction extended syntax
+    fraction = false
+    # whether to enable the fontawesome extended syntax
+    fontawesome = true
+    # whether to show link to Raw Markdown content of the content
+    linkToMarkdown = true
+    # whether to show the full text content in RSS
+    rssFullText = false
+    # Table of the contents config
+    [params.page.toc]
+      # whether to enable the table of the contents
+      enable = true
+      # whether to keep the static table of the contents in front of the post
+      keepStatic = false
+      # whether to make the table of the contents in the sidebar automatically collapsed
+      auto = true
+    # Code config 
+    [params.page.code] 
+    # whether to show the copy button of the code block 
+      copy = true 
+      maxShownLines = 8
+    # Social share links in post page
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Reddit = true
+      Linkedin = false
+      # Whatsapp = false Pinterest = false Tumblr = false HackerNews = true  Pocket = false Blogger = false Evernote = false Skype = false Trello = false
+    
+    # Comment config more info theme github repo
+    [params.page.comment]
+      enable = false
+
+    # Third-party library config
+    # [params.page.library]
+    #  [params.page.library.css]
+        # someCSS = "some.css"
+        # located in "assets/" 
+        # someCSS = "https://cdn.example.com/some.css"
+     # [params.page.library.js]
+        # someJavascript = "some.js"
+        # someJavascript = "https://cdn.example.com/some.js"
+    # Page SEO config
+    [params.page.seo]
+      # image URL
+      images = []
+      # Publisher info
+      [params.page.seo.publisher]
+        name = "Team Yayin"
+        logoUrl = "/img/logo_t.png"
+
+  # TypeIt config
+  [params.typeit]
+    # typing speed between each step (measured in milliseconds)
+    speed = 100
+    # blinking speed of the cursor (measured in milliseconds)
+    cursorSpeed = 1000
+    # character used for the cursor (HTML format is supported)
+    cursorChar = "|"
+    # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
+    duration = -1
+
+  # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
+  [params.verification]
+    google = ""
+    bing = ""
+    # yandex = "" # pinterest = "" # baidu = ""
+
+  # Site SEO config
+  [params.seo]
+    # image URL
+    image = "/img/logo_t.png"
+    # thumbnail URL
+    thumbnailUrl = "/img/logo_t.png"
+
+  # Analytics config
+  [params.analytics]
+    enable = false
+    # Google Analytics
+    [params.analytics.google]
+      id = ""
+      # whether to anonymize IP
+      anonymizeIP = true
+
+  # Cookie consent config
+  [params.cookieconsent]
+    enable = false
+    # text strings used for Cookie consent banner
+    [params.cookieconsent.content]
+      message = ""
+      dismiss = ""
+      link = ""
+
+  # CDN config for third-party library files
+  # [params.cdn]
+    # CDN data file name, disabled by default
+    # ("jsdelivr.yml")
+    # located in "themes/LoveIt/assets/data/cdn/" directory
+    # you can store your own data files in the same path under your project:
+    # "assets/data/cdn/"
+    # ("jsdelivr.yml")
+    # "assets/data/cdn/"
+    #data = "jsdelivr.yml"
+
+  # Compatibility config
+  [params.compatibility]
+    # whether to use Polyfill.io to be compatible with older browsers
+    polyfill = false
+    # whether to use object-fit-images to be compatible with older browsers
+    objectFit = false
+
+[author]
+  name = "Yayin AI Labs Pvt. Ltd."
+
+# Sitemap config
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    # [markup.goldmark.renderer] # whether to use HTML tags directly in the document; unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+# Search
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  # page = ["HTML", "Markdown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
