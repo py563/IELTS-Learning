@@ -36,7 +36,7 @@ paginate = 5
     [languages.en.params.logo]
     # logoText = "hello friend"
       logoHomeLink = "/"
-      path = "/img/logo.svg"
+      path = "/img/logo_t.png"
       alt = "A Washed-up Nerd"
 
     [languages.en.menu]
